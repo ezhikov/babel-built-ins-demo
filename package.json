@@ -1,0 +1,14 @@
+{
+  "name": "polyfill-test",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir=es"
+  }
+}
